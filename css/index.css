@@ -1,0 +1,542 @@
+#fp-nav ul li a.active span{
+    background:#0094ff;
+}
+
+#fp-nav ul li a span{
+    background: red;
+}
+
+
+
+
+/*第一屏开始*/
+.section_content{
+    width: 1000px;
+    height:100%;
+    border:1px solid #000;
+    position:absolute;
+    left:50%;
+    bottom: 0;
+    margin-left: -500px;
+
+}
+
+.section-1{
+    background:url('../images/t1fpyqfltdxxaiulhh-990-600.png') center bottom no-repeat #F9DD67 ;
+    position:relative;
+}
+
+.s1_pao{
+    position:absolute;
+    bottom:150px;
+    left:8%;
+}
+
+.s1_feichuan{
+    position:absolute;
+    top:5%;
+    right:5%;
+    animation:updown 2s infinite alternate linear;
+}
+
+@keyframes updown {
+    0%{
+
+    }
+    100%{
+        transform: translateY(30%);
+    }
+}
+
+.s1_sfpao{
+    animation:updown 2s infinite alternate linear;
+    position: absolute;
+    left: 36%;
+    margin-left: -67px;
+    bottom: 348px;
+}
+
+/*第一屏结束*/
+
+
+/*第二屏开始*/
+.section-2{
+    background:url('../images/t1zdgpfi8exxca6rfn-2000-600.png') center bottom no-repeat #84A2D4 ;
+    position:relative;
+}
+
+.s2_sreach{
+    position:absolute;
+    bottom:300px;
+    right:-170px;
+
+}
+
+.s2_sf{
+    position: absolute;
+    bottom: 311px;
+    right: 42%;
+    display:none;
+}
+
+.s2_ssf{
+    position:absolute;
+    bottom:300px;
+    right:50%;
+    margin-right: -111px;
+    /*opacity: .3;*/
+    display:none;
+}
+
+/*right: 37%;*/
+/*top: 39.7%;*/
+/*height: 30px;*/
+
+.s2_sfs{
+    width: 100px;
+    position: absolute;
+    bottom: 27%;
+    right: 28%;
+    display:none;
+}
+
+.s2_publack,.s2_pubai{
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.s2_pubai{
+    display:none;
+}
+
+.wrap{
+    position: absolute;
+    top: 45.5%;
+    left: 39%;
+    width: 107px;
+    height: 106px;
+    background: #fff;
+    display:none;
+}
+
+
+/*第二屏结束*/
+
+/*第三屏开始*/
+.section-3{
+    background:url('../images/main.png') center bottom no-repeat #EF674D;
+    position:relative;
+}
+
+.s3_sf{
+    position:absolute;
+    width: 102px;
+    bottom: 143%;
+    left: 39.4%;
+    display:none;
+    /*left:30%;*/
+    /*bottom: 30%;*/
+}
+
+.s3_item,.s3_item-active{
+    position:absolute;
+    bottom: 24%;
+    left: 53.9%;
+}
+
+.s3_item-active{
+    display:none;
+}
+
+.s3_buy,.s3_buy_active{
+    position:absolute;
+    bottom: 12%;
+    left: 53.9%;
+}
+
+.s3_buy_active{
+    display:none;
+}
+
+
+/*第三屏结束*/
+
+/*第四屏开始 */
+.section-4{
+    background:url('../images/t1iresfnxaxxca6rfn-2000-600.png') center bottom no-repeat #FFEEDD;
+    position:relative;
+}
+
+
+
+
+
+.s4_bbcar{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform: translateX(-50%);
+    border:1px solid #000;
+}
+
+.s4_car{
+
+}
+
+.s4_xsf{
+    position:absolute;
+    /*bottom: 50%;*/
+    /*left: 60%;*/
+    margin-left: -102px;
+    z-index: -1;
+    bottom: 280%;
+    left: 19%;
+    display:none;
+}
+
+.s4_text,.s4_text_active{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.s4_text_active{
+    display:none;
+}
+
+.s4_computer,.s4_dizhi{
+    position:absolute;
+    bottom:20%;
+    left:50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.s4_dizhi{
+    bottom:41%;
+}
+
+.s4_yun{
+    position:absolute;
+    top:8%;
+    left:50%;
+    transform: translateX(-50%);
+    animation: leftright 10s linear infinite alternate;
+}
+
+@keyframes leftright {
+    from{}
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+/*第四屏结束*/
+
+/*第五屏开始*/
+.section-5{
+    background:url('../images/t1yisqfa4exxa3gmkg-2000-1500.png') center bottom no-repeat;
+    position:relative;
+    overflow: hidden;
+    perspective: 600;
+    -webkit-perspective: 600;
+}
+
+.s5_mouse,.s5_mouse_active{
+    position:absolute;
+    top: -27%;
+    right:0;
+}
+
+.s5_mouse_active{
+    display:none;
+}
+
+.s5_hand{
+    position:absolute;
+    /*right: 67px;*/
+    /*bottom: -21px;*/
+
+    bottom:-36%;
+    right:67px;
+}
+
+.s5_card{
+    position:absolute;
+    bottom:30%;
+    left:5%;
+}
+
+.s5_sf{
+    position:absolute;
+    /*bottom: 14%;*/
+    /*left: 12%;*/
+
+    bottom: 96%;
+    left: 12%;
+
+
+}
+
+.s5_bankcard{
+    position:absolute;
+    bottom: 41.5%;
+    left: 16%;
+    /*bottom: 54%;*/
+}
+
+.s5_text {
+    position: absolute;
+    width: 700px;
+    left: -10%;
+    top: 10%;
+    display: none;
+}
+
+
+.s5_text_a{
+    animation:zhuan 3s  forwards;
+}
+
+@keyframes zhuan {
+    100%{
+        transform:translateZ(100px) rotateY(360deg);
+    }
+}
+/*第五屏结束*/
+
+/*第六屏开始*/
+.section-6{
+    background:url('../images/t1dvj.fn0gxxb0_fua-2500-600.png') 25% bottom no-repeat #85d9ed;
+    position:relative;
+}
+
+.s6_bigcar{
+    position:absolute;
+    bottom:0;
+    left: 30%;
+}
+
+.s6_box{
+    position:absolute;
+    bottom: 65%;
+    left: 6%;
+
+    /*left: 33%;*/
+}
+
+.s6_sf{
+    position:absolute;
+    bottom: 114%;
+    left: 12%;
+    display:none;
+
+    /*动画结束*/
+    /*width:80px*/
+    /*bottom: 64%;*/
+    /*/!*left: 6%;*!/*/
+    /*left: 35%;*/
+
+
+}
+
+.s6_text_car{
+    position: absolute;
+    bottom: 14%;
+    left: 48%;
+    display:none;
+}
+
+
+.s6_text{
+    position:absolute;
+    bottom: 63%;
+    left: -100%;
+
+    /*left: 19%;*/
+}
+
+.s6_man{
+    width: 50px;
+    position: absolute;
+    bottom: 4.5%;
+    left: 47%;
+    display:none;
+    /*卸货*/
+    /*width: 252px;*/
+    /*bottom: 14.5%;*/
+    /*left: 25%;*/
+
+    /*送到家门口*/
+    /*bottom: 14.5%;*/
+    /*left: 55%;*/
+    /*width: 252px;*/
+}
+
+.s6_opendoor{
+    position:absolute;
+    bottom: 14.5%;
+    right: -1.4%;
+    display:none;
+
+}
+
+.s6_buyman{
+    position: absolute;
+    width: 44px;
+    bottom: 14.5%;
+    right: 1%;
+    display:none;
+
+    /*签收*/
+    /*width:87px;*/
+    /*bottom: 14.5%;*/
+    /*right: 7%;*/
+}
+
+.s6_shouhuo{
+    position: absolute;
+    right: 16%;
+    bottom: 49%;
+    display:none;
+}
+
+.s6_yun{
+    position:absolute;
+    top:4%;
+    left:100%;
+   animation:leftright 20s linear infinite alternate;
+}
+/*第六屏结束*/
+
+/*第七屏开始*/
+.section-7{
+    background:url('../images/t1wf1tfctaxxa3gmkg-2000-1500.png') center bottom no-repeat;
+    position:relative;
+}
+
+.s7_star{
+    background:url('../images/star.png')no-repeat;
+    position:absolute;
+    bottom: 438px;
+    left: 203px;
+    /*width: 129px;*/
+    width:0px;
+    height:20px;
+    background-size: 98px;
+    display:none;
+}
+
+.s7_good{
+    position: absolute;
+    bottom: 383px;
+    left: 216px;
+    display:none;
+}
+
+
+
+/*第七屏结束*/
+
+
+/*第八屏开始*/
+.section-8{
+    background:url('../images/ksgw.png') center bottom ;
+    position:relative;
+}
+
+.s8_btn{
+    width: 389px;
+    height: 160px;
+    position:absolute;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.s8_a_btn{
+    position:absolute;
+}
+
+.s8_b_btn{
+    position:absolute;
+    display:none;
+}
+
+
+.s8_btn:hover .s8_b_btn{
+    display:block;
+}
+
+
+.s8_agin{
+    position:absolute;
+    bottom: 50%;
+    left: 82%;
+    transform: translateX(-50%);
+}
+
+.s8_hand{
+    position: absolute;
+    /*bottom: 0;*/
+    /*left: 0;*/
+}
+/*第八屏结束*/
+
+
+/*购物中心开始*/
+.gouwu{
+    position:fixed;
+    right:100px;
+    top:20px;
+    z-index: 3;
+}
+a{
+    text-decoration: none;
+    color:#f48f29;
+    font-weight: 900;
+}
+
+.next{
+    position:fixed;
+    right: 10%;
+    bottom: 10%;
+    z-index: 2;
+    animation:nextAll .4s linear infinite alternate;
+}
+
+@keyframes nextAll {
+    0%{}
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+/*购物中心结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
